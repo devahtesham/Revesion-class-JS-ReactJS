@@ -6,8 +6,8 @@ ES6 >> let const
  STEPS TO CREATE VARIABLES
  1) declaration
  2) initialization
-*/ 
-//================= var 
+*/
+//================= var
 // var myName; // variable declaration
 // myName = "ahtesham"  // initialization
 // var myName = "ahtesham"
@@ -18,14 +18,6 @@ ES6 >> let const
 //================= const
 // console.log("name",myName);
 // var myName = "ahtesham"
-
-
-
-
-
-
-
-
 
 /*
 Primitive type:
@@ -49,7 +41,7 @@ Refrence type
 
 // let arr=[22,15,13,26,8,7,1];
 // let arr1=[9,6,1,3,2,0];
-let arr=[10,20,30,40,50,60,70];
+// let arr=[10,20,30,40,50,60,70];
 // let arr=["canada","bashir","denim","ear","asif","monday","tuesday"];
 // console.log(arr);
 // arr.sort();
@@ -67,8 +59,45 @@ let arr=[10,20,30,40,50,60,70];
 // console.log(arr);
 // let newArr = []
 // console.log(arr);
-let ans = arr.map(function(num){
-console.log(num*10); 
-})
+// let arr = [10, 20, 30, 40, 50, 60, 70];
+// let arr = ["canada", "bashir", "denim", "ear", "asif", "monday", "tuesday"];
+// =========== map ===========
+// let ans = arr.map(function (num) {
+//   //   console.log(num);
+//   return num;
+// });
+// console.log(ans);
+// =========== filter ===========
+// let ans = arr.filter(function (num) {});
+// console.log(ans);
+// ============== join =============
+// console.log(arr);
+// let ans = arr.join("*");
 // console.log(ans);
 
+// let newArray = [];
+// arr.forEach(function (num) {
+//   //   console.log(num);
+//   newArray.push(num);
+// });
+// console.log(newArray);
+
+// ================== OBJECTS ===========
+// 1st method
+let user1 = {
+  user_name: "anus",
+  age: 17,
+  course: "js",
+  fees: 5000,
+};
+// // console.log(user1.age);
+// user1.fees = 5000;
+// user1["fees"] = 5000;
+// console.log(user1);
+// delete user1.user_name;
+// // console.log(user1);
+// user1.user_name = "ahtesham";
+// console.log(user1);
+for (let keys in user1) {
+  console.log(user1[keys]);
+}
